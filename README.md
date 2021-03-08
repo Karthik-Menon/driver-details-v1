@@ -17,6 +17,9 @@ A GET endpoint which returns a list of all existing drivers in JSON format
 URL: http://localhost:8081/drivers/byDate?date=<date> 
 A GET endpoint which returns a list of all drivers created after the specified date. 
 
+BASIC AUTHENTICATION as below
+username : userfloow
+password : passwordfloow
 
 Configure the path where csv file is to be generated, in the application.properties file as
 driver.detail.file.path=<file-path>
